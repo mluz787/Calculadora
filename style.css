@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+:root{
+    --RoxoCor:   rgb(182, 131, 193);
+}
+
+* {
+    box-sizing: border-box;
+    
+    
+}
+body {
+    padding: 0;
+    margin: 50px;
+    background: var(--RoxoCor);
+    
+    font-family: 'open-sans', sans-serif;
+}
+.container {
+    display: block;
+   margin: 0 auto;
+    max-width: 640px;
+    
+    padding: 30px;
+    background-color: white;
+
+}
+form input, form label, form button {
+    width: 100%;
+   
+}
+form input {
+    margin-bottom: 10px;
+    border: solid 1px black;
+    height: 30px;
+    padding: 0 10px;
+}
+button:hover {
+    background: var(--RoxoCor)
+}
+form input:focus{
+    outline: 2px solid var(--RoxoCor);
+}
+button {
+    height: 40px;
+    border: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    
+    
+
+}
+.calculadora{
+    width: 400px;
+    background-color: aliceblue;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+
+}
+.btn {
+    width: 100%;
+    height: 50px ;
+    font-size: 1em;
+    background-color: #dfdfdf;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: rgb(138, 135, 135);
+}
+
